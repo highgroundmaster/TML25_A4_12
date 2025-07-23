@@ -84,6 +84,7 @@ This task involved using the `pytorch-grad-cam` library to visualize the model's
     - Loops through each image to generate and plot the CAM visualizations.
 - `requirements.txt` - Python Packages required for running the code.
 - `report.pdf` - Report on comparison on Explainability of Grad-CAM, AblationCAM, and ScoreCAM.
+- `CAM_results.png` - Plot comparing Grad-CAM, AblationCAM, and ScoreCAM heatmaps.
 
 ### How to Reproduce the Results
 
@@ -153,5 +154,26 @@ The entire process is contained within the notebook. Open `TML25_A4_12_Task_2.ip
 
 - `TML25_A4_12_Task_4.ipynb` - **Primary Analysis** Notebook containing snippets from `TML25_A4_12_Task_2.ipynb` and `TML25_A4_12_Task_3.ipynb` to compute combined IoU.
 - `report.pdf` - Report Comparing LIME and GradCAM - IoU and other analysis.
+- `IoU-Lime_GradCAM.png` - Plot comparing LIME and GradCAM with IoU annotations.
+- `requirements.txt` - Python Packages required for running the code.
+
+### How to Reproduce the Results
+
+1. **Install Dependencies:** 
+    - A `requirements.txt` file is present in the folder. Install the dependencies accordingly
+        
+        ```bash
+        pip install -r requirements.txt
+        ```
+        
+    - Alternatively, the below command can be used to install necessary libraries can be installed via pip.
+        
+        ```bash
+        pip install pytorch-gradcam lime torch torchvision matplotlib Pillow scikit-learn skimage numpy
+        ```
+        
+2. **Run the Notebook:**
+    - The entire process is contained within the notebook - `TML25_A4_12_Task_4.ipynb`
+    - Open `TML25_A4_12_Task_4.ipynb` in a Jupyter environment and run all cells sequentially from top to bottom.
 
 ---
