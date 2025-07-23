@@ -154,7 +154,7 @@ The entire process is contained within the notebook. Open `TML25_A4_12_Task_2.ip
 
 - `TML25_A4_12_Task_4.ipynb` - **Primary Analysis** Notebook containing snippets from `TML25_A4_12_Task_2.ipynb` and `TML25_A4_12_Task_3.ipynb` to compute combined IoU.
 - `report.pdf` - Report Comparing LIME and GradCAM - IoU and other analysis.
-- `IoU-Lime_GradCAM.png` - Plot comparing LIME and GradCAM with IoU annotations.
+- `IoU_Lime_GradCAM.png` - Plot comparing LIME and GradCAM with IoU annotations.
 - `requirements.txt` - Python Packages required for running the code.
 
 ### How to Reproduce the Results
