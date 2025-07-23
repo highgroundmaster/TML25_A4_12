@@ -11,6 +11,16 @@
 
 ---
 
+# Deliverables
+
+- **Deliverable 1** - `/Task-1/report.pdf`
+- **Deliverable 2** - `/Task-2/CAM_results.png` , `/Task-2/report.pdf`
+- **Deliverable 3** - `/Task-3/lime_results.png` , `/Task-3/report.pdf`
+- **Deliverable 4** - `/Task-3/params.pkl`
+- **Deliverable 5** - `/Task-4/report.pdf`
+
+---
+
 # Task 1: Network Dissection - `/Task-1`
 
 This task involved using the `CLIP-dissect` library to identify and compare the concepts learned by the neurons of two `ResNet18` models: one trained on ImageNet and another on Places365.
